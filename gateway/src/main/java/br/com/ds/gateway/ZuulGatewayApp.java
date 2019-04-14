@@ -13,7 +13,6 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableDiscoveryClient
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-//@EnableHystrix
 public class ZuulGatewayApp {
 
 	public static void main(String[] args) {
