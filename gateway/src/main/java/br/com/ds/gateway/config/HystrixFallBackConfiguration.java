@@ -1,5 +1,6 @@
 package br.com.ds.gateway.config;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.exception.HystrixTimeoutException;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.context.annotation.Configuration;
@@ -74,7 +75,7 @@ public class HystrixFallBackConfiguration implements FallbackProvider {
     }
 
     @Override
-//    @HystrixCommand(fallbackMethod = "fallBackResponse")
+    @HystrixCommand
     public ClientHttpResponse fallbackResponse(String route, Throwable cause) {
         return new ClientHttpResponse() {
             @Override
