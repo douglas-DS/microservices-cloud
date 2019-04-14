@@ -9,7 +9,6 @@
         <module name="customer" />
         <module name="eureka-discovery" />
         <module name="gateway" />
-        <module name="turbine" />
         <module name="circuit-breaker" />
       </profile>
     </annotationProcessing>
