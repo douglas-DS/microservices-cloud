@@ -1,0 +1,15 @@
+server:
+  port: 8761
+  
+eureka:
+#  instance:
+#    health-check-url-path: http://localhost:8761/health
+#    status-page-url-path:  http://localhost:8761/info
+    
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

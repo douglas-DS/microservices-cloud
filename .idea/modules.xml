@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/circuit-breaker/circuit-breaker.iml" filepath="$PROJECT_DIR$/circuit-breaker/circuit-breaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-discovery/eureka-discovery.iml" filepath="$PROJECT_DIR$/eureka-discovery/eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices-cloud.iml" filepath="$PROJECT_DIR$/microservices-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
+    </modules>
+  </component>
+</project>
