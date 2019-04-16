@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/sos-bifrost/pom.xml" />
         <option value="$PROJECT_DIR$/sos-expelliarmus/pom.xml" />
         <option value="$PROJECT_DIR$/sos-hogwarts/pom.xml" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
