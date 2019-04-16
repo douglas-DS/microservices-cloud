@@ -20,4 +20,8 @@ public class Customer  {
         this.address = address;
         this.port = port;
     }
+
+    public Customer(String name) {
+        this.name = name;
+    }
 }

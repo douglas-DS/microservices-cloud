@@ -2,6 +2,7 @@ package br.com.ds.customer;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,5 +14,11 @@ public class CustomerController {
     @HystrixCommand
     public Customer getCustomer() {
         return new Customer("Bruce Wayne", "BatCave", "PORT: 8080");
+    }
+
+    @GetMapping("/{name}")
+    @HystrixCommand
+    public Customer getCustomerName(@PathVariable String name) {
+        return new Customer(name);
     }
 }
