@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: security
+
+server:
+  port: 8090
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
