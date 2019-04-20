@@ -12,3 +12,7 @@ eureka:
     fetchRegistry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+spring:
+  cloud:
+    config:
+      enabled: false

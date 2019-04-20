@@ -1,4 +1,4 @@
-package br.com.techis.soscitadel.docs;
+package br.com.ds.core.docs;
 
 import org.springframework.context.annotation.Bean;
 import springfox.documentation.builders.ApiInfoBuilder;

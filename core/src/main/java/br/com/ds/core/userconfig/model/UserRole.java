@@ -1,26 +1,23 @@
-package br.com.techis.soscitadel.userconfig.model;
+package br.com.ds.core.userconfig.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import br.com.ds.core.userconfig.util.RoleEnum;
+import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
 @Getter
 @Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserRole {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_role_user_role_id_seq")
-    private Integer id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_role_gen")
+    @SequenceGenerator(name = "user_role_gen", sequenceName = "user_role_id_seq")
+    private Long id;
 
-    @NotNull(message = "Name is required")
-    private String name;
+    @NotNull(message = "Role name is required")
+    private RoleEnum name;
 }

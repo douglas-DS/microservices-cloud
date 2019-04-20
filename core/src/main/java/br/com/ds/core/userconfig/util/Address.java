@@ -1,4 +1,4 @@
-//package br.com.ds.core.userconfig.utils;
+//package br.com.ds.core.userconfig.util;
 //
 //import br.com.ds.core.userconfig.model.Account;
 //import lombok.AllArgsConstructor;
