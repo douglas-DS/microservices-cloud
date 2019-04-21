@@ -12,7 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableDiscoveryClient
 @EnableCircuitBreaker
 @EntityScan({"br.com.ds.core.userconfig.model"})
-@EnableJpaRepositories({"br.com.ds.user.repository"})
+//@EnableJpaRepositories({"br.com.ds.user.repository"})
 @ComponentScan("br.com.ds")
 public class UserApplication {
 

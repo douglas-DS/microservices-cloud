@@ -6,6 +6,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
@@ -19,13 +20,15 @@ import java.util.Date;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_gen")
-    @SequenceGenerator(name = "user_gen", sequenceName = "user_id_seq")
+    @SequenceGenerator(name = "user_gen", sequenceName = "user_id_seq", allocationSize = 1)
     private Long id;
 
     @Email
+    @NotBlank
     @NotNull(message = "Email is required")
     private String email;
 
+    @NotBlank
     @NotNull(message = "Password is required")
     private String password;
 
