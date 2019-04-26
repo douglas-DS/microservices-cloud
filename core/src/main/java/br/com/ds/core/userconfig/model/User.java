@@ -1,5 +1,6 @@
 package br.com.ds.core.userconfig.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -7,6 +8,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
@@ -24,15 +26,16 @@ public class User {
     private Long id;
 
     @Email
-    @NotBlank
+    @NotEmpty
     @NotNull(message = "Email is required")
     private String email;
 
-    @NotBlank
+    @NotEmpty
     @NotNull(message = "Password is required")
     private String password;
 
-    @NotNull(message = "Nickname is required")
+    @JsonIgnore
+//    @NotNull
     private String nickname;
 
     @Temporal(TemporalType.TIMESTAMP)

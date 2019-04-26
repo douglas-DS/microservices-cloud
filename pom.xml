@@ -16,7 +16,7 @@
 
     <modules>
         <module>gateway</module>
-        <module>user</module>
+        <module>security</module>
         <module>circuit-breaker</module>
         <module>eureka-discovery</module>
         <module>config-server</module>

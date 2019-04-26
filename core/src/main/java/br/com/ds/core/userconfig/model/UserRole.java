@@ -18,5 +18,5 @@ public class UserRole {
     private Long id;
 
     @NotNull(message = "Role name is required")
-    private String name;
+    private UserRoleName name;
 }
