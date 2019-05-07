@@ -1,4 +1,4 @@
-package br.com.ds.core.userconfig.model;
+package br.com.ds.core.userrole.model;
 
 /**
  * @author Douglas Souza on 25/04/2019
