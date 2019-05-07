@@ -1,9 +1,9 @@
 package br.com.ds.user.service;
 
-import br.com.ds.core.userconfig.model.User;
-import br.com.ds.core.userconfig.model.UserRole;
-import br.com.ds.user.repository.UserRepository;
-import br.com.ds.user.repository.UserRoleRepository;
+import br.com.ds.core.user.model.User;
+import br.com.ds.core.userrole.model.UserRole;
+import br.com.ds.core.user.repository.UserRepository;
+import br.com.ds.core.userrole.repository.UserRoleRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

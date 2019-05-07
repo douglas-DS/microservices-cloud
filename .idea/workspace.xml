@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3c5f42-cc2b-45e0-a1bf-a13c082c1ecc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole/repository/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/CoreApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/docs/BaseSwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/swagger/BaseSwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/RoleRepositry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/util/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/util/RoleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/br/com/ds/core/userconfig/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/br/com/ds/core/userconfig/model/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/br/com/ds/core/userconfig/util/RoleEnum.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/UserApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/sos-bifrost/target/" />
@@ -56,12 +78,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/User.java">
+        <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="432">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,10 +92,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/UserRole.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="82" lean-forward="true" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="100" />
+            <state relative-caret-position="287">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,38 +104,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/Role.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="27" />
+            <state relative-caret-position="90">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <element signature="e#0#606#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole/model/UserRole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/UserController.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole/repository/UserRoleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="90">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +140,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRepository.java">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/repository/AddressRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="90">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/model/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/repository/RoleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/model/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,6 +193,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -146,29 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/expelliarmus/pom.xml" />
-        <option value="$PROJECT_DIR$/hogwarts/pom.xml" />
-        <option value="$PROJECT_DIR$/turbine/pom.xml" />
-        <option value="$PROJECT_DIR$/bifrost/pom.xml" />
-        <option value="$PROJECT_DIR$/bifrost/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/bifrost/src/main/java/br/com/ds/bifrost/config/HystrixFallBackConfiguration.java" />
-        <option value="$PROJECT_DIR$/bifrost/src/main/java/br/com/ds/bifrost/BifrostApplication.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/br/com/ds/bifrost/ZuulGatewayApp.java" />
-        <option value="$PROJECT_DIR$/circuit-breaker/pom.xml" />
-        <option value="$PROJECT_DIR$/circuit-breaker/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
-        <option value="$PROJECT_DIR$/circuit-breaker/src/main/java/br/com/ds/circuitbreaker/HystrixApp.java" />
-        <option value="$PROJECT_DIR$/gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/turbine/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/ZuulGatewayApp.java" />
-        <option value="$PROJECT_DIR$/customer/src/main/java/br/com/ds/customer/CustomerApplication.java" />
-        <option value="$PROJECT_DIR$/customer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/config/HystrixFallBackConfiguration.java" />
-        <option value="$PROJECT_DIR$/gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/sos-citadel/pom.xml" />
-        <option value="$PROJECT_DIR$/security/pom.xml" />
-        <option value="$PROJECT_DIR$/security/src/main/java/br/com/ds/security/SecurityApplication.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/RoleRepositry.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/AccountRepository.java" />
         <option value="$PROJECT_DIR$/core/src/main/resources/application.yml" />
@@ -191,12 +226,35 @@
         <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/UserRoleRepository.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/UserApplication.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/UserRole.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/User.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/UserController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/UserRoleRepository.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/util/Address.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/RoleRepositry.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/Role.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/User.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/UserRole.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AddressController.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/util/Address.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/Account.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AccountController.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/UserInfoAccessController.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/CustomUserDetailService.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/UserService.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/UserRepository.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/Login.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/model/User.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/AddressRepository.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/RoleRepository.java" />
       </list>
     </option>
   </component>
@@ -279,27 +337,6 @@
             <path>
               <item name="microservices-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="userconfig" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-cloud" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,24 +379,6 @@
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="endpoint" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="microservices-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -376,13 +395,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ds.user.modifications" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole" />
+      <recent name="$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -402,7 +430,7 @@
     </option>
     <option name="contentProportion" value="0.14572048" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SecurityApplication">
+  <component name="RunManager" selected="Spring Boot.User">
     <configuration name="microservices [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -513,7 +541,10 @@
       <workItem from="1555754390266" duration="1193000" />
       <workItem from="1555774562382" duration="2995000" />
       <workItem from="1555782567671" duration="3940000" />
-      <workItem from="1555820938744" duration="2770000" />
+      <workItem from="1555820938744" duration="2833000" />
+      <workItem from="1555969979006" duration="6146000" />
+      <workItem from="1556301756371" duration="1607000" />
+      <workItem from="1557269648248" duration="521000" />
     </task>
     <servers />
   </component>
@@ -526,7 +557,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56603000" />
+    <option name="totallyTimeSpent" value="64940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +571,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="40" width="1920" height="1040" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2854856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.291889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -562,7 +593,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32968238" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49893278" visible="true" weight="0.3231106" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49893278" weight="0.32275712" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32968238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -619,59 +650,19 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AccountController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/turbine/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/filter/RouteFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/filter/PreFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/filter/PostFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/filter/ErrorFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/config/ApplicationConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/circuit-breaker/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-discovery/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -720,23 +711,6 @@
         <state relative-caret-position="-432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/ZuulGatewayApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-discovery/src/main/java/br/com/ds/eureka/EurekaServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -747,10 +721,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b575eb85-e4cc-4840-abc1-6803532471a3/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/docs/BaseSwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/swagger/BaseSwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -767,65 +738,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security/src/main/java/br/com/ds/security/SecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/RoleRepositry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-          <folding>
-            <element signature="e#0#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/repository/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" />
-          <folding>
-            <element signature="e#0#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-658">
-          <caret selection-end-line="62" />
-          <folding>
-            <element signature="e#0#1572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/util/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="46" />
-          <folding>
-            <element signature="e#0#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-discovery/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/test/java/br/com/ds/user/UserApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -852,27 +766,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/User.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/CoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -887,80 +781,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/util/RoleEnum.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/UserRole.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/util/RoleEnum.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/CoreApplication.java" />
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AddressController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="82" lean-forward="true" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="100" />
+        <state relative-caret-position="108">
+          <caret line="12" column="54" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/account/repository/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/User.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/br/com/ds/security/SecurityApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/security/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/br/com/ds/gateway/ZuulGatewayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="216">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userconfig/model/Role.java">
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
-          <folding>
-            <element signature="e#0#606#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/endpoint/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        <state relative-caret-position="324">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/address/repository/AddressRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/model/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/role/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole/model/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/user/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="87" selection-start-line="87" selection-end-line="107" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/CustomUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/br/com/ds/user/modifications/UserInfoAccessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/br/com/ds/core/userrole/repository/UserRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

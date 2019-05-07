@@ -1,6 +1,7 @@
 package br.com.ds.user.endpoint;//
 
-import br.com.ds.core.userconfig.model.User;
+
+import br.com.ds.core.user.model.User;
 import br.com.ds.user.service.UserService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.AllArgsConstructor;
