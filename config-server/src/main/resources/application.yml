@@ -1,7 +1,6 @@
 server:
   port: 8888
 
-
 spring:
   cloud:
     config:
@@ -13,7 +12,6 @@ spring:
 
 eureka:
   instance:
-    #    prefer-ip-address: true
     hostname: localhost
     port: 8761
   client:
