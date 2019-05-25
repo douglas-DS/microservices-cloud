@@ -1,21 +1,23 @@
+- eureka:
+    port: 8671
+
 server:
   port: 8888
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/douglas-DS/microservices-cloud-config
-  application:
-    name: config-server
 
 eureka:
   instance:
     hostname: localhost
-    port: 8761
   client:
     service-url:
-      defultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+      defultZone: http://${eureka.instance.hostname}:${[0].eureka.port}/eureka/
     register-with-eureka: true
     fetch-registry: false

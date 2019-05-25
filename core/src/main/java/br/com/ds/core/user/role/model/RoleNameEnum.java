@@ -1,11 +1,11 @@
-package br.com.ds.core.userrole.model;
+package br.com.ds.core.user.role.model;
 
 /**
  * @author Douglas Souza on 25/04/2019
  */
-public enum UserRoleName {
+
+public enum RoleNameEnum {
     MASTER,
     ADMIN,
-    OPERATOR,
     VIEWER,
 }

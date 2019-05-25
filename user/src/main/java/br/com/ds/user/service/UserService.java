@@ -1,7 +1,7 @@
 package br.com.ds.user.service;
 
 import br.com.ds.core.user.model.User;
-import br.com.ds.core.userrole.model.UserRole;
+import br.com.ds.core.user.role.model.UserRole;
 import br.com.ds.core.user.repository.UserRepository;
 import br.com.ds.core.userrole.repository.UserRoleRepository;
 import lombok.AllArgsConstructor;
