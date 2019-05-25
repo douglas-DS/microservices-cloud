@@ -16,7 +16,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 import static javax.persistence.CascadeType.ALL;
-import static javax.persistence.GenerationType.SEQUENCE;
+import static javax.persistence.GenerationType.IDENTITY;
 import static javax.persistence.TemporalType.TIMESTAMP;
 
 @Entity
@@ -28,7 +28,7 @@ import static javax.persistence.TemporalType.TIMESTAMP;
 public class User implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = SEQUENCE)
+    @GeneratedValue(strategy = IDENTITY )
     private Long id;
 
     @Email
@@ -57,4 +57,16 @@ public class User implements Serializable {
 
     @ManyToOne(cascade = ALL)
     private UserRole userRole;
+
+    public User(@NotNull User user) {
+        this.id = user.getId();
+        this.email = user.getEmail();
+        this.password = user.getPassword();
+        this.nickname = user.getNickname();
+        this.creationDate = user.getCreationDate();
+        this.lastLogin = user.getLastLogin();
+        this.account = user.getAccount();
+        this.contactNumber = user.getContactNumber();
+        this.userRole = user.getUserRole();
+    }
 }

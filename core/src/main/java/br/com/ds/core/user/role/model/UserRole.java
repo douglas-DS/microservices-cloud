@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
-import static javax.persistence.GenerationType.SEQUENCE;
+import static javax.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Data
@@ -21,7 +21,7 @@ import static javax.persistence.GenerationType.SEQUENCE;
 public class UserRole implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = SEQUENCE)
+    @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
     @NotNull(message = "Role name is required")

@@ -8,13 +8,16 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.validator.constraints.br.CPF;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Date;
 
-import static javax.persistence.GenerationType.SEQUENCE;
+import static javax.persistence.GenerationType.IDENTITY;
 import static javax.persistence.TemporalType.TIMESTAMP;
 
 @Entity(name = "account")
@@ -25,7 +28,7 @@ import static javax.persistence.TemporalType.TIMESTAMP;
 public class Account implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = SEQUENCE)
+    @GeneratedValue(strategy = IDENTITY)
     private Long id;
 
     @Email
@@ -44,6 +47,5 @@ public class Account implements Serializable {
     @NotNull(message = "Identification is required")
     private String identification;
 
-    @Column(name = "account_phone")
     private String contactNumber;
 }
