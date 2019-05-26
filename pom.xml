@@ -19,7 +19,7 @@
         <module>security</module>
         <module>circuit-breaker</module>
         <module>config-server</module>
-<!--        <module>user</module>-->
+        <module>user</module>
         <module>core</module>
         <module>token</module>
     </modules>
