@@ -1,10 +1,9 @@
-package br.com.ds.security.endpoint.controller;
+package br.com.ds.security.endpoint;
 
-import br.com.ds.core.userconfig.model.User;
-import br.com.ds.security.endpoint.service.UserService;
-import org.springframework.http.HttpStatus;
+import br.com.ds.core.user.model.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,11 +17,10 @@ import java.security.Principal;
 @RequestMapping("v1/access")
 public class UserInfoAccessController {
 
-    private UserService service;
-
-    public ResponseEntity getUser(Principal principal) {
+    @GetMapping
+    public ResponseEntity<?> currentUserInfo(Principal principal) {
         User user = (User) ((UsernamePasswordAuthenticationToken) principal).getPrincipal();
-        return new ResponseEntity<>(user, HttpStatus.OK);
+        return ResponseEntity.ok(user);
     }
 
 }
